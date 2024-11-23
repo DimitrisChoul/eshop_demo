@@ -1,0 +1,16 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: eshop-db-container
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=dimi
+      - POSTGRES_DB=eshop_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
