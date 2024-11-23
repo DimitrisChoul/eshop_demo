@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "dimi",
+    "password": "password",
+    "database": "eshop_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": "5432"
+  }
+}
