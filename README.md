@@ -19,3 +19,10 @@ Current working routes: /cart
 4. Load test data:
     ```bash
    npx sequelize-cli db:seed:all
+
+## Test
+
+1. Download the provided Insomnia-cart export file.
+2. Open Insomnia and navigate to File > Import.
+3. Select the Insomnia-cart file and import it.
+4. Use the imported requests to test the cart endpoints.
